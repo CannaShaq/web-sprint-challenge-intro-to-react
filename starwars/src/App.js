@@ -17,3 +17,7 @@ const App = () => {
 }
 
 export default App;
+
+
+
+//bgImg url: https://images4.alphacoders.com/648/648345.jpg
