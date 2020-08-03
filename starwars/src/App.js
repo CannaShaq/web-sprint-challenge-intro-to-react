@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import RickMortyData from '../src/components/RickMortyData';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -11,7 +12,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">Cast of Rick and Morty</h1>
+
+      <RickMortyData/>
     </div>
   );
 }
